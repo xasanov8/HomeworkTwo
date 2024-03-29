@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneTAsk</title>
+    <style>
+        table {
+            text-align: center;
+            width: 99.9%;
+            font-family: sans-serif;
+            font-size: 1rem;
+            height: 100vh;
+        }
+
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="tr1" style="background-color: yellowgreen; height: 6%;">
+            <td></td>
+            <td colspan="2">ColumnSpan="2"</td>
+            <td colspan="2">ColumnSpan="2"</td>
+        </tr>
+        <tr style="background-color: lightgoldenrodyellow; height: 20%;">
+            <td></td>
+            <td rowspan="3" colspan="2">RowSpan="3" ColumnSpan="2"</td>
+            <td rowspan="5" colspan="2">RowSpan="5" ColumnSpan="2"</td>
+        </tr>
+        <tr style="background-color: red; height: 30px;">
+            <td></td>
+        </tr>
+        <tr style="background-color: orange;">
+            <td rowspan="5">RowSpan="5"</td>
+        </tr>
+        <tr style="background-color: rgb(68, 68, 234); height: 30px;">
+            <td colspan="2">ColumnSpan="2"</td>
+        </tr>
+        <tr style="background-color: brown;;">
+            <td colspan="2">ColumnSpan="2"</td>
+        </tr>
+        <tr style="background-color: mediumslateblue; height: 30px;">
+            <td></td>
+            <td colspan="2">ColumnSpan="2"</td>
+            <td></td>
+        </tr>
+        <tr style="background-color: grey; ">
+            <td></td>
+            <td colspan="2">ColumnSpan="2"</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
